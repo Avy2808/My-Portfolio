@@ -57,6 +57,10 @@ body .micon img {
 .link .links :hover {
     position: relative;
     bottom: 4px;
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+    font-weight: bold;
 }
 
 .logo img {
