@@ -3,13 +3,14 @@ body {
     background-position: center center;
     height: 500px;
 }
-.link .links{
+
+.link .links {
     position: fixed;
     top: 10px;
     left: 800px;
 }
 
-.link .links a{
+.link .links a {
     color: white;
     text-decoration: none;
     font-family: cursive;
@@ -19,7 +20,8 @@ body {
     padding-bottom: 10px;
     border: 2px solid white;
 }
-.intro{
+
+.intro {
     position: fixed;
     top: 150px;
     left: 450px;
@@ -30,11 +32,18 @@ body {
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-@keyframes intro-text{
-    from{color: white;}
-    to{color: red;}
+
+@keyframes intro-text {
+    from {
+        color: white;
+    }
+
+    to {
+        color: red;
+    }
 }
-body .micon img{
+
+body .micon img {
     display: block;
     position: fixed;
     width: 60px;
@@ -42,19 +51,22 @@ body .micon img{
     left: 0px;
     border: 2px solid white;
     padding-right: 95%;
-    background-color:rgb(99, 97, 97);
+    background-color: rgb(99, 97, 97);
 }
-.link .links :hover{
+
+.link .links :hover {
     position: relative;
     bottom: 4px;
 }
-.logo img{
+
+.logo img {
     position: relative;
     width: 50px;
     left: 400px;
     top: -100px;
 }
-.direction .pd{
+
+.direction .pd {
     position: fixed;
     text-align: center;
     color: white;
@@ -62,31 +74,36 @@ body .micon img{
     top: 350px;
     left: 360px;
 }
-body{
+
+body {
     background-color: black;
 }
 
-.logo .llogo{
+.logo .llogo {
     width: 50px;
     left: 430px;
     padding: 20px;
 }
-.logo .glogo{
+
+.logo .glogo {
     width: 87px;
     left: 430px;
     padding: 20px;
 }
-.logo .hlogo{
+
+.logo .hlogo {
     width: 50px;
     left: 430px;
     padding: 20px;
 }
-.logo .lelogo{
+
+.logo .lelogo {
     width: 45px;
     left: 430px;
     padding: 20px;
 }
-.abouth{
+
+.abouth {
     position: fixed;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
@@ -97,17 +114,19 @@ body{
     text-decoration: underline;
 
 }
-.aboutb .aboutpic img{
+
+.aboutb .aboutpic img {
     position: fixed;
     display: flex;
     height: 375px;
     left: 800px;
     top: 120px;
     padding: 20px;
-    background-color:rgb(82, 48, 10);
+    background-color: rgb(82, 48, 10);
     border: 2px dashed white;
 }
-.aboutbody p{
+
+.aboutbody p {
     top: 200px;
     position: fixed;
     text-align: justify;
@@ -118,10 +137,11 @@ body{
     left: 50px;
 }
 
-.education p{
+.education p {
     color: white;
 }
-.eduqual li{
+
+.eduqual li {
     position: relative;
     color: white;
     display: flex;
@@ -130,16 +150,19 @@ body{
     left: 5px;
     top: 150px;
 }
-.educontent img{
+
+.educontent img {
     position: fixed;
     height: 300px;
     left: 700px;
     top: 180px;
     padding: 20px;
-    background-color: rgb(82, 48, 10);;
+    background-color: rgb(82, 48, 10);
+    ;
     border: 2px dashed white;
 }
-.educontent h1{
+
+.educontent h1 {
     position: fixed;
     top: 80px;
     left: 520px;
@@ -148,7 +171,8 @@ body{
     font-size: 40px;
     text-decoration: underline;
 }
-.skills .skillsh h1{
+
+.skills .skillsh h1 {
     position: relative;
     color: white;
     text-align: center;
@@ -156,16 +180,19 @@ body{
     font-size: 43px;
     text-decoration: underline;
 }
-.skills img{
+
+.skills img {
     position: fixed;
     height: 250px;
     left: 750px;
     top: 190px;
     padding: 20px;
-    background-color: rgb(82, 48, 10);;
+    background-color: rgb(82, 48, 10);
+    ;
     border: 2px dashed white;
 }
-.skills .skillscont .skillist li{
+
+.skills .skillscont .skillist li {
     position: relative;
     display: flex;
     font-size: 30px;
@@ -173,7 +200,8 @@ body{
     top: 90px;
     left: 5px;
 }
-.mainquote{
+
+.mainquote {
     position: fixed;
     text-align: center;
     color: white;
@@ -181,7 +209,8 @@ body{
     top: 260px;
     left: 590px;
 }
-.main .random{
+
+.main .random {
     position: fixed;
     color: white;
     text-align: center;
@@ -189,19 +218,23 @@ body{
     top: 300px;
     left: 390px;
 }
-.link .links{
+
+.link .links {
     position: fixed;
     padding-top: 10px;
     padding-bottom: 10px;
     top: 15px;
 }
-.link .links .home{
+
+.link .links .home {
     padding-right: 20px;
 }
-.link .links a{
+
+.link .links a {
     background-color: rgb(45, 44, 44);
 }
-.main .logo :hover{
+
+.main .logo :hover {
     position: relative;
     bottom: 4px;
 }
