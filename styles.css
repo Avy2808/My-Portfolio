@@ -47,11 +47,15 @@ body .micon img {
     display: block;
     position: fixed;
     width: 60px;
+    height: 64px;
     top: 0px;
     left: 0px;
     border: 2px solid white;
     padding-right: 100%;
     background-color: rgb(99, 97, 97);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
 }
 
 .link .links :hover {
